@@ -1,0 +1,4 @@
+{"name":"carrier-lead-finder","version":"1.0.0","private":true,"engines":{"node":">=22.13"},
+"scripts":{"dev":"node --experimental-sqlite --env-file-if-exists=.env --watch server.js",
+"start":"node --experimental-sqlite --env-file-if-exists=.env server.js",
+"import":"node --experimental-sqlite --env-file-if-exists=.env scripts/import.js"}}
